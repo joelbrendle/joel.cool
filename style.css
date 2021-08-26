@@ -1,7 +1,22 @@
 body {
-  background-color: blue;
+  background-image: url(https://assets.seedprod.com/BG-IMAGE-1.png);
+  background-position: top;
+  
+  color: #ededed;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
 }
 
-h1 {
-  color: orange;
+#title-box {
+  text-align: center;
+  margin-top: 15.5%;
+}
+
+#title-text {
+  font-size: 80px;
+  /* text-transform: uppercase; */
+}
+
+#title-desc {
+  font-size: 30px;
 }
