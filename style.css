@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(42, 151, 140);
   background-image: url(https://assets.seedprod.com/BG-IMAGE-1.png);
   background-position: top;
   
@@ -17,6 +18,52 @@ body {
   /* text-transform: uppercase; */
 }
 
+#title-text span {
+  margin: 5px;
+}
+
+#title-text #a:hover {
+  color: yellow;
+}
+
+#title-text #b:hover {
+  color: orange;
+}
+
+#title-text #c:hover {
+  color: red;
+}
+
+#title-text #d:hover {
+  color: purple;
+}
+
+#title-text #e:hover {
+  color: blue;
+}
+
+#title-text #f:hover {
+  color: aqua;
+}
+
+#title-text #g:hover {
+  color: olive;
+}
+
+#title-text #h:hover {
+  color: green;
+}
+
+#title-text #i:hover {
+  color: chocolate;
+}
+
+
+
 #title-desc {
   font-size: 30px;
+}
+
+#title-desc a {
+  text-decoration: none;
 }
