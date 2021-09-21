@@ -2,7 +2,8 @@ body {
   background-color: rgb(42, 151, 140);
   background-image: url(https://assets.seedprod.com/BG-IMAGE-1.png);
   background-position: top;
-  
+  background-size: 150%;
+
   color: #ededed;
   font-family: Inter, sans-serif;
   font-weight: bold;
@@ -14,7 +15,7 @@ body {
 }
 
 #title-text {
-  font-size: 80px;
+  font-size: 200px;
   /* text-transform: uppercase; */
 }
 
