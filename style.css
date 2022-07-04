@@ -1,70 +1,76 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+html {
+width: 100%;
+}
+
 body {
-  background-color: rgb(42, 151, 140);
-  background-image: url(https://assets.seedprod.com/BG-IMAGE-1.png);
-  background-position: top;
-  background-size: 150%;
-
-  color: #ededed;
-  font-family: Inter, sans-serif;
-  font-weight: bold;
+  background-color: #000000;
+  width: 100%;
+  height: 2000px;
 }
 
-#title-box {
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cliff img {
+ z-index: 10;
+}
+
+.mountains img {
+ z-index: 8;
+}
+
+.moon img {
+ z-index: 7;
+}
+
+.stars img {
+ z-index: 5;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -136%);
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
   text-align: center;
-  margin-top: 15.5%;
+  z-index: 20;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px #ffffff solid;
+}
+.title h1 {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 
-#title-text {
-  font-size: 200px;
-  /* text-transform: uppercase; */
-}
-
-#title-text span {
-  margin: 5px;
-}
-
-#title-text #a:hover {
-  color: yellow;
-}
-
-#title-text #b:hover {
-  color: orange;
-}
-
-#title-text #c:hover {
-  color: red;
-}
-
-#title-text #d:hover {
-  color: purple;
-}
-
-#title-text #e:hover {
-  color: blue;
-}
-
-#title-text #f:hover {
-  color: aqua;
-}
-
-#title-text #g:hover {
-  color: olive;
-}
-
-#title-text #h:hover {
-  color: green;
-}
-
-#title-text #i:hover {
-  color: chocolate;
-}
-
-
-
-#title-desc {
-  font-size: 30px;
-}
-
-#title-desc a {
-  text-decoration: none;
+.content {
+  position: absolute;
+  z-index: 11;
+  background-color: #000;
+  padding-left: 150px;
+  padding-right: 130px;
+  padding-bottom: 500px;
+  top: 700px;
+  padding-top: 40px;
+  width: 100%;
 }
